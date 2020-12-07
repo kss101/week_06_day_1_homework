@@ -9,5 +9,5 @@ const declareMurderer = function() {
 }
 
 changeMurderer();
-const verdict = declareMurderer();
+const verdict = declareMurderer(); // The murderer will be Professor Plum as, since "murderer" is declared a const at the start, it can't be reasigned later.
 console.log(verdict);
