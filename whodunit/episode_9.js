@@ -2,7 +2,6 @@ let murderer = 'Professor Plum';
 
 if (murderer === 'Professor Plum') {
   let murderer = 'Mrs. Peacock';
-  return murderer;
 }
 
 const declareMurderer = function() {
