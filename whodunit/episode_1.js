@@ -8,5 +8,5 @@ const scenario = {
     return `The murderer is ${scenario.murderer}.`;
   }
   
-  const verdict = declareMurderer();
+  const verdict = declareMurderer(); // the murderer will be Miss Scarlet
   console.log(verdict);
